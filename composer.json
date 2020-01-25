@@ -1,0 +1,15 @@
+{
+    "name": "jmichaelward/wpcs-modified",
+    "description": "A modified set of WordPress Coding Standards for personal use.",
+    "type": "library",
+    "require": {
+        "wp-coding-standards/wpcs": "^2.2"
+    },
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Jeremy Ward",
+            "email": "jeremy@jmichaelward.com"
+        }
+    ]
+}
