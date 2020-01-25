@@ -5,5 +5,11 @@
     <rule ref="WordPress-Core">
         <!-- Allow short array syntax. -->
         <exclude name="Generic.Arrays.DisallowShortArraySyntax" />
+
+        <!-- Stop warning about non- Underscored_Class_Names. -->
+        <exclude name="PEAR.NamingConventions.ValidClassName" />
     </rule>
+
+    <!-- Follow PSR-1 class naming convention. -->
+    <rule ref="Squiz.Classes.ValidClassName" />
 </ruleset>
