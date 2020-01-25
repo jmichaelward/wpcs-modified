@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="JMichaelWardCS" namespace="JMichaelWardCS\JMichaelWardCS" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="JMichaelWardWpcs" namespace="JMichaelWardWpcs\JMichaelWardWpcs" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
     <description>A modified set of WordPress Coding Standards for J. Michael Ward</description>
 
     <!-- Include WordPress ruleset with exclusions. -->
@@ -10,7 +10,7 @@
         <!-- Stop warning about non- Underscored_Class_Names. -->
         <exclude name="PEAR.NamingConventions.ValidClassName" />
 
-        <!-- Remove default WordPress filename rules. Modified by JMichaelWardCS.FileNameMod. -->
+        <!-- Remove default WordPress filename rules. Modified by JMichaelWardWpcs.FileNameMod. -->
         <exclude name="WordPress.Files.FileName" />
     </rule>
 

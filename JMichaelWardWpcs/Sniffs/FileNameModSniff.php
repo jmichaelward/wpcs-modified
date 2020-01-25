@@ -1,5 +1,5 @@
 <?php
-namespace JMichaelWardCS\JMichaelWardCS\Sniffs;
+namespace JMichaelWardWpcs\JMichaelWardWpcs\Sniffs;
 
 use WordPressCS\WordPress\Sniffs\Files\FileNameSniff;
 
