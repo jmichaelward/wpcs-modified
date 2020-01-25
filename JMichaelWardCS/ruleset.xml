@@ -2,8 +2,8 @@
 <ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="JMichaelWardCS" namespace="JMichaelWardCS\JMichaelWardCS" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
     <description>A modified set of WordPress Coding Standards for J. Michael Ward</description>
 
-    <!-- Exclusions from the WordPress ruleset. -->
-    <rule ref="WordPress-Core">
+    <!-- Include WordPress ruleset with exclusions. -->
+    <rule ref="WordPress">
         <!-- Allow short array syntax. -->
         <exclude name="Generic.Arrays.DisallowShortArraySyntax" />
 
