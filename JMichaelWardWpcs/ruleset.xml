@@ -12,6 +12,9 @@
 
         <!-- Remove default WordPress filename rules. Modified by JMichaelWardWpcs.FileNameMod. -->
         <exclude name="WordPress.Files.FileName" />
+
+		<!-- Short ternaries are a PHP language construct and we should allow them. -->
+		<exclude name="WordPress.PHP.DisallowShortTernary.Found" />
     </rule>
 
     <!-- Additions to replace WordPress exclusions and match preferences. -->
